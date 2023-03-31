@@ -218,7 +218,8 @@ namespace vMenuClient
             // DLC CHRISTMAS2020 (v 2189)
             { "weapon_gadgetpistol", GetLabelText("WTD_GDGTPST") },
             { "weapon_militaryrifle", GetLabelText("WTD_MLTRYRFL") },
-            { "weapon_combatshotgun", GetLabelText("WTD_CMBSHGN") }
+            { "weapon_combatshotgun", GetLabelText("WTD_CMBSHGN") },
+            { "weapon_hk416g", "~p~HK416 5.56mm NATO" }
         };
 
         public static readonly Dictionary<string, string> weaponNames = new Dictionary<string, string>()
@@ -321,7 +322,8 @@ namespace vMenuClient
             // DLC CHRISTMAS2020 (v 2189)
             { "weapon_gadgetpistol", GetLabelText("WT_GDGTPST") },
             { "weapon_militaryrifle", GetLabelText("WT_MLTRYRFL") },
-            { "weapon_combatshotgun", GetLabelText("WT_CMBSHGN") }
+            { "weapon_combatshotgun", GetLabelText("WT_CMBSHGN") },
+            { "weapon_hk416g", "~p~HK416 5.56mm NATO" }
         };
         #endregion
 
@@ -427,6 +429,7 @@ namespace vMenuClient
             ["weapon_gadgetpistol"] = Permission.WPPericoPistol,
             ["weapon_militaryrifle"] = Permission.WPMilitaryRifle,
             ["weapon_combatshotgun"] = Permission.WPCombatShotgun,
+            ["weapon_hk416g"] = Permission.WPHK416,
         };
         #endregion
 
@@ -790,7 +793,24 @@ namespace vMenuClient
             ["COMPONENT_VINTAGEPISTOL_CLIP_01"] = GetLabelText("WCT_CLIP1"),
             ["COMPONENT_VINTAGEPISTOL_CLIP_02"] = GetLabelText("WCT_CLIP2"),
             // CHRISTMAS 2018 DLC (v 1604)
-            ["COMPONENT_RAYPISTOL_VARMOD_XMAS18"] = GetLabelText("WCT_VAR_RAY18")
+            ["COMPONENT_RAYPISTOL_VARMOD_XMAS18"] = GetLabelText("WCT_VAR_RAY18"),
+            ["COMPONENT_HK416G_CLIP_01"] = "Tan Magazine",
+            ["COMPONENT_HK416G_CLIP_02"] = "Black Magazine",
+            ["COMPONENT_HK416G_CLIP_03"] = "Black Scratched Magazine",
+            ["COMPONENT_AT_SCOPE_SOF2"] = "EOTECH HHS II ON",
+            ["COMPONENT_AT_SCOPE_SOF1"] = "EOTECH HHS II OFF",
+            ["COMPONENT_AT_SCOPE_SOF"] = "EOTECH 552",
+            ["COMPONENT_AT_AR_SOCOMLL"] = "5.56mm QDSS NT4",
+            ["COMPONENT_AT_AR_SOCOML"] = "SOCOM556 SB2 SUPPRESSOR",
+            ["COMPONENT_AT_AR_MODC"] = "MAGPUL ANGLED FOREGRIP",
+            ["COMPONENT_AT_AR_MODB"] = "MAGPUL TAN VERTICAL GRIP",
+            ["COMPONENT_AT_AR_MODA"] = "MAGPUL BLACK RVG VERTICAL GRIP",
+            ["COMPONENT_AT_AR_FL1B"] = "SUREFIRE TAN LIGHT W VIS IR LASER",
+            ["COMPONENT_AT_AR_FL1"] = "SUREFIRE BLACK LIGHT W VIS IR LASER",
+            ["COMPONENT_AT_CR_STOCK_01"] = "MAGPUL TAN CTR CARBINE STOCK",
+            ["COMPONENT_AT_CR_STOCK_02"] = "MAGPUL BLACK CTR CARBINE STOCK",
+            ["COMPONENT_AT_CR_STOCK_03"] = "TAN STOCK",
+            ["COMPONENT_AT_CR_STOCK_04"] = "SCRATCHED TAN STOCK",
         };
         #endregion
 
@@ -799,7 +819,7 @@ namespace vMenuClient
         {
             ["Black"] = 0,
             ["Green"] = 1,
-            ["Gold"] = 2,
+            ["Gold"] = 2,c
             ["Pink"] = 3,
             ["Army"] = 4,
             ["LSPD"] = 5,
