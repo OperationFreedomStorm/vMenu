@@ -300,6 +300,7 @@ namespace vMenuShared
             WPPericoPistol, // xmas 2020 dlc (2189)
             WPMilitaryRifle, // xmas 2020 dlc (2189)
             WPCombatShotgun, // xmas 2020 dlc (2189)
+            WPHK416,
             #endregion
 
             // Weapon Loadouts Menu
