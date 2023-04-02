@@ -219,6 +219,7 @@ namespace vMenuClient
             { "weapon_gadgetpistol", GetLabelText("WTD_GDGTPST") },
             { "weapon_militaryrifle", GetLabelText("WTD_MLTRYRFL") },
             { "weapon_combatshotgun", GetLabelText("WTD_CMBSHGN") },
+            { "weapon_tacticalrifle", "M16A4 Rifle" },
             { "weapon_hk416g", "~p~HK416 5.56mm NATO" }
         };
 
@@ -323,6 +324,7 @@ namespace vMenuClient
             { "weapon_gadgetpistol", GetLabelText("WT_GDGTPST") },
             { "weapon_militaryrifle", GetLabelText("WT_MLTRYRFL") },
             { "weapon_combatshotgun", GetLabelText("WT_CMBSHGN") },
+            { "weapon_tacticalrifle", "M16A4 Rifle" },
             { "weapon_hk416g", "~p~HK416 5.56mm NATO" }
         };
         #endregion
@@ -429,6 +431,7 @@ namespace vMenuClient
             ["weapon_gadgetpistol"] = Permission.WPPericoPistol,
             ["weapon_militaryrifle"] = Permission.WPMilitaryRifle,
             ["weapon_combatshotgun"] = Permission.WPCombatShotgun,
+            ["weapon_tacticalrifle"] = Permission.WPTacticalRifle,
             ["weapon_hk416g"] = Permission.WPHK416,
         };
         #endregion
