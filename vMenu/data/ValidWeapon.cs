@@ -222,11 +222,7 @@ namespace vMenuClient
             { "weapon_tacticalrifle", "M16A4 Rifle" },
             { "weapon_hk416g", "~p~HK416 5.56mm NATO" },
             { "weapon_m4a1fm", "~p~M4A1 5.56mm NATO" },
-            { "weapon_hk417", "~p~HK417 7.62mm NATO" },
-            { "weapon_m249", "~p~M249 5.56mm NATO" },
-            { "weapon_scar17fm", "~p~SCAR17 5.56mm NATO" },
-            { "weapon_akm", "~p~AKM 7.62mm" },
-            { "weapon_mcxspear", "~p~SIG MCX Spear 7.62mm NATO" }
+            { "weapon_hk417", "~p~HK417 7.62mm NATO" }
         };
 
         public static readonly Dictionary<string, string> weaponNames = new Dictionary<string, string>()
@@ -333,11 +329,7 @@ namespace vMenuClient
             { "weapon_tacticalrifle", "M16A4 Rifle" },
             { "weapon_hk416g", "~p~HK416 5.56mm NATO" },
             { "weapon_m4a1fm", "~p~M4A1 5.56mm NATO" },
-            { "weapon_hk417", "~p~HK417 7.62mm NATO" },
-            { "weapon_m249", "~p~M249 5.56mm NATO" },
-            { "weapon_scar17fm", "~p~SCAR17 5.56mm NATO" },
-            { "weapon_akm", "~p~AKM 7.62mm" },
-            { "weapon_mcxspear", "~p~SIG MCX Spear 7.62mm NATO" }
+            { "weapon_hk417", "~p~HK417 7.62mm NATO" }
         };
         #endregion
 
