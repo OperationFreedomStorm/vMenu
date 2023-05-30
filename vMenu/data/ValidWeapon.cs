@@ -220,7 +220,13 @@ namespace vMenuClient
             { "weapon_militaryrifle", GetLabelText("WTD_MLTRYRFL") },
             { "weapon_combatshotgun", GetLabelText("WTD_CMBSHGN") },
             { "weapon_tacticalrifle", "M16A4 Rifle" },
-            { "weapon_hk416g", "~p~HK416 5.56mm NATO" }
+            { "weapon_hk416g", "~p~HK416 5.56mm NATO" },
+            { "WEAPON_M4A1FM", "~p~M4A1 5.56×45mm NATO" },
+            { "WEAPON_HK417", "~p~HK417 7.62×51mm NATO" },
+            { "WEAPON_M249", "~p~M249 5.56×45mm NATO" },
+            { "WEAPON_SCAR17FM", "~p~SCAR-17 5.56×45mm NATO" },
+            { "WEAPON_AKM", "~p~AKM 7.62×39mm" },
+            { "WEAPON_MCXSPEAR", "~p~SIG MCX Spear 7.62×51mm NATO" }
         };
 
         public static readonly Dictionary<string, string> weaponNames = new Dictionary<string, string>()
