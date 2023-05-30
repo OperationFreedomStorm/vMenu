@@ -302,6 +302,11 @@ namespace vMenuShared
             WPCombatShotgun, // xmas 2020 dlc (2189)
             WPTacticalRifle,
             WPHK416,
+            WPM4A1FM,
+            WPHK417,
+            WPM249,
+            WPSCAR17FM,
+            WPMCXSPEAR,
             #endregion
 
             // Weapon Loadouts Menu
