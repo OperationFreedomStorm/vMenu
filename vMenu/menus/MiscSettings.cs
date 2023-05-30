@@ -718,7 +718,7 @@ namespace vMenuClient
                 }
                 else if (item == thermalVision)
                 {
-                    SetSeethrough(_checked);
+                     TriggerEvent("nightVisionToggle", _checked);
                 }
                 else if (item == lockCamX)
                 {
