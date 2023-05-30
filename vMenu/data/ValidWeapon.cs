@@ -230,6 +230,7 @@ namespace vMenuClient
             { "weapon_pistolxm3", GetLabelText("WTD_PISTOLXM3") },
             { "weapon_candycane", GetLabelText("WTD_CANDYCANE") },
             { "weapon_railgunxm3", GetLabelText("WTD_RAILGUNXM3") },
+            { "weapon_hk416g", "~p~HK416 5.56mm NATO" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new Dictionary<string, string>()
@@ -345,6 +346,7 @@ namespace vMenuClient
             { "weapon_candycane", GetLabelText("WT_CANDYCANE") },
             { "weapon_railgunxm3", GetLabelText("WT_RAILGUNXM3") },
             { "weapon_acidpackage", GetLabelText("WT_ACIDPACKAGE") },
+            { "weapon_hk416g", "~p~HK416 5.56mm NATO" },
         };
         #endregion
 
@@ -873,6 +875,41 @@ namespace vMenuClient
             ["COMPONENT_KNIFE_VARMOD_XM3_07"] = GetLabelText("WCT_KNIFE_XM307"),
             ["COMPONENT_KNIFE_VARMOD_XM3_08"] = GetLabelText("WCT_KNIFE_XM308"),
             ["COMPONENT_KNIFE_VARMOD_XM3_09"] = GetLabelText("WCT_KNIFE_XM309"),
+            ["COMPONENT_RAYPISTOL_VARMOD_XMAS18"] = GetLabelText("WCT_VAR_RAY18"),
+            ["COMPONENT_HK416G_CLIP_01"] = "Tan Magazine",
+            ["COMPONENT_HK416G_CLIP_02"] = "Black Magazine",
+            ["COMPONENT_HK416G_CLIP_03"] = "Black Scratched Magazine",
+            ["COMPONENT_AT_SCOPE_SOF2"] = "EOTECH HHS II ON",
+            ["COMPONENT_AT_SCOPE_SOF1"] = "EOTECH HHS II OFF",
+            ["COMPONENT_AT_SCOPE_SOF"] = "EOTECH 552",
+            ["COMPONENT_AT_AR_SOCOMLL"] = "5.56mm QDSS NT4",
+            ["COMPONENT_AT_AR_SOCOML"] = "SOCOM556 SB2 SUPPRESSOR",
+            ["COMPONENT_AT_AR_MODC"] = "MAGPUL ANGLED FOREGRIP",
+            ["COMPONENT_AT_AR_MODB"] = "MAGPUL TAN VERTICAL GRIP",
+            ["COMPONENT_AT_AR_MODA"] = "MAGPUL BLACK RVG VERTICAL GRIP",
+            ["COMPONENT_AT_AR_FL1B"] = "SUREFIRE TAN LIGHT W VIS IR LASER",
+            ["COMPONENT_AT_AR_FL1"] = "SUREFIRE BLACK LIGHT W VIS IR LASER",
+            ["COMPONENT_AT_CR_STOCK_01"] = "MAGPUL TAN CTR CARBINE STOCK",
+            ["COMPONENT_AT_CR_STOCK_02"] = "MAGPUL BLACK CTR CARBINE STOCK",
+            ["COMPONENT_AT_CR_STOCK_03"] = "TAN STOCK",
+            ["COMPONENT_AT_CR_STOCK_04"] = "SCRATCHED TAN STOCK",
+            ["COMPONENT_HK416G_CLIP_01"] = "Tan Magazine",
+            ["COMPONENT_HK416G_CLIP_02"] = "Black Magazine",
+            ["COMPONENT_HK416G_CLIP_03"] = "Black Scratched Magazine",
+            ["COMPONENT_AT_SCOPE_SOF2"] = "EOTECH HHS II ON",
+            ["COMPONENT_AT_SCOPE_SOF1"] = "EOTECH HHS II OFF",
+            ["COMPONENT_AT_SCOPE_SOF"] = "EOTECH 552",
+            ["COMPONENT_AT_AR_SOCOMLL"] = "5.56mm QDSS NT4",
+            ["COMPONENT_AT_AR_SOCOML"] = "SOCOM556 SB2 SUPPRESSOR",
+            ["COMPONENT_AT_AR_MODC"] = "MAGPUL ANGLED FOREGRIP",
+            ["COMPONENT_AT_AR_MODB"] = "MAGPUL TAN VERTICAL GRIP",
+            ["COMPONENT_AT_AR_MODA"] = "MAGPUL BLACK RVG VERTICAL GRIP",
+            ["COMPONENT_AT_AR_FL1B"] = "SUREFIRE TAN LIGHT W VIS IR LASER",
+            ["COMPONENT_AT_AR_FL1"] = "SUREFIRE BLACK LIGHT W VIS IR LASER",
+            ["COMPONENT_AT_CR_STOCK_01"] = "MAGPUL TAN CTR CARBINE STOCK",
+            ["COMPONENT_AT_CR_STOCK_02"] = "MAGPUL BLACK CTR CARBINE STOCK",
+            ["COMPONENT_AT_CR_STOCK_03"] = "TAN STOCK",
+            ["COMPONENT_AT_CR_STOCK_04"] = "SCRATCHED TAN STOCK",
         };
         #endregion
 
