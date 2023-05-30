@@ -331,7 +331,6 @@ namespace vMenuClient
             { "weapon_militaryrifle", GetLabelText("WT_MLTRYRFL") },
             { "weapon_combatshotgun", GetLabelText("WT_CMBSHGN") },
             { "weapon_tacticalrifle", "M16A4 Rifle" },
-            { "weapon_tacticalrifle", "M16A4 Rifle" },
             { "weapon_hk416g", "~p~HK416 5.56mm NATO" },
             { "WEAPON_M4A1FM", "~p~M4A1 5.56mm NATO" },
             { "WEAPON_HK417", "~p~HK417 7.62mm NATO" },
