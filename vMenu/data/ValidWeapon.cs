@@ -875,7 +875,6 @@ namespace vMenuClient
             ["COMPONENT_KNIFE_VARMOD_XM3_07"] = GetLabelText("WCT_KNIFE_XM307"),
             ["COMPONENT_KNIFE_VARMOD_XM3_08"] = GetLabelText("WCT_KNIFE_XM308"),
             ["COMPONENT_KNIFE_VARMOD_XM3_09"] = GetLabelText("WCT_KNIFE_XM309"),
-            ["COMPONENT_RAYPISTOL_VARMOD_XMAS18"] = GetLabelText("WCT_VAR_RAY18"),
             ["COMPONENT_HK416G_CLIP_01"] = "Tan Magazine",
             ["COMPONENT_HK416G_CLIP_02"] = "Black Magazine",
             ["COMPONENT_HK416G_CLIP_03"] = "Black Scratched Magazine",
