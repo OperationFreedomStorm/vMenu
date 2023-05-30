@@ -326,6 +326,7 @@ namespace vMenuClient
             { "weapon_combatshotgun", GetLabelText("WT_CMBSHGN") },
             { "weapon_tacticalrifle", "M16A4 Rifle" },
             { "weapon_hk416g", "~p~HK416 5.56mm NATO" }
+            { "WEAPON_M4A1FM", "~p~M4A1 5.56×45mm NATO" }
         };
         #endregion
 
@@ -433,6 +434,7 @@ namespace vMenuClient
             ["weapon_combatshotgun"] = Permission.WPCombatShotgun,
             ["weapon_tacticalrifle"] = Permission.WPTacticalRifle,
             ["weapon_hk416g"] = Permission.WPHK416,
+            ["WEAPON_M4A1FM"] = Permission.WPHK416,
         };
         #endregion
 
@@ -807,6 +809,13 @@ namespace vMenuClient
             ["COMPONENT_AT_AR_SOCOML"] = "SOCOM556 SB2 SUPPRESSOR",
             ["COMPONENT_AT_AR_MODC"] = "MAGPUL ANGLED FOREGRIP",
             ["COMPONENT_AT_AR_MODB"] = "MAGPUL TAN VERTICAL GRIP",
+            ["COMPONENT_AT_AR_MODA"] = "MAGPUL BLACK RVG VERTICAL GRIP",
+            ["COMPONENT_AT_AR_FL1B"] = "SUREFIRE TAN LIGHT W VIS IR LASER",
+            ["COMPONENT_AT_AR_FL1"] = "SUREFIRE BLACK LIGHT W VIS IR LASER",
+            ["COMPONENT_AT_CR_STOCK_01"] = "MAGPUL TAN CTR CARBINE STOCK",
+            ["COMPONENT_AT_CR_STOCK_02"] = "MAGPUL BLACK CTR CARBINE STOCK",
+            ["COMPONENT_AT_CR_STOCK_03"] = "TAN STOCK",
+            ["COMPONENT_AT_CR_STOCK_04"] = "SCRATCHED TAN STOCK",
             ["COMPONENT_AT_AR_MODA"] = "MAGPUL BLACK RVG VERTICAL GRIP",
             ["COMPONENT_AT_AR_FL1B"] = "SUREFIRE TAN LIGHT W VIS IR LASER",
             ["COMPONENT_AT_AR_FL1"] = "SUREFIRE BLACK LIGHT W VIS IR LASER",
