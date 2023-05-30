@@ -331,7 +331,7 @@ namespace vMenuClient
             { "WEAPON_M249", "~p~M249 5.56×45mm NATO" },
             { "WEAPON_SCAR17FM", "~p~SCAR-17 5.56×45mm NATO" },
             { "WEAPON_AKM", "~p~AKM 7.62×39mm" },
-            { "WEAPON_MCXSPEAR", "~p~SIG MCX Spear 7.62×51mm NATO" },
+            { "WEAPON_MCXSPEAR", "~p~SIG MCX Spear 7.62×51mm NATO" }
         };
         #endregion
 
