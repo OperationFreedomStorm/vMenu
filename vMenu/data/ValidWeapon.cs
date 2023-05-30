@@ -439,11 +439,11 @@ namespace vMenuClient
             ["weapon_combatshotgun"] = Permission.WPCombatShotgun,
             ["weapon_tacticalrifle"] = Permission.WPTacticalRifle,
             ["weapon_hk416g"] = Permission.WPHK416,
-            ["WEAPON_M4A1FM"] = Permission.WPHK416,
-            ["WEAPON_HK417"] = Permission.WPHK416,
-            ["WEAPON_M249"] = Permission.WPHK416,
-            ["WEAPON_SCAR17FM"] = Permission.WPHK416,
-            ["WEAPON_MCXSPEAR"] = Permission.WPHK416,
+            ["WEAPON_M4A1FM"] = Permission.WPM4A1FM,
+            ["WEAPON_HK417"] = Permission.WPHK417,
+            ["WEAPON_M249"] = Permission.WPM249,
+            ["WEAPON_SCAR17FM"] = Permission.WPSCAR17FM,
+            ["WEAPON_MCXSPEAR"] = Permission.WPMCXSPEAR,
         };
         #endregion
 
