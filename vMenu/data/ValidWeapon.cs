@@ -353,7 +353,12 @@ namespace vMenuClient
             { "weapon_railgunxm3", GetLabelText("WT_RAILGUNXM3") },
             { "weapon_acidpackage", GetLabelText("WT_ACIDPACKAGE") },
             { "weapon_hk416g", "~p~HK416 5.56mm NATO" },
-            { "weapon_m4a1fm", "~p~M4A1 5.56×45mm NATO" }
+            { "weapon_m4a1fm", "~p~M4A1 5.56×45mm NATO" },
+            { "weapon_hk417", "~p~HK417 7.62×51mm NATO" },
+            { "weapon_m249", "~p~M249 5.56×45mm NATO" },
+            { "weapon_scar17fm", "~p~SCAR-17 5.56×45mm NATO" },
+            { "weapon_akm", "~p~AKM 7.62×39mm" },
+            { "weapon_mcxspear", "~p~SIG MCX Spear 7.62×51mm NATO" }
         };
         #endregion
 
@@ -472,7 +477,12 @@ namespace vMenuClient
             ["weapon_railgunxm3"] = Permission.WPRailgunXM3,
             ["weapon_acidpackage"] = Permission.WPAcidPackage,
             ["weapon_hk416g"] = Permission.WPHK416,
-            ["weapon_m4a1fm"] = Permission.WPHK416
+            ["weapon_m4a1fm"] = Permission.WPHK416,
+            ["weapon_hk417"] = Permission.WPHK416,
+            ["weapon_m249"] = Permission.WPHK416,
+            ["weapon_scar17fm"] = Permission.WPHK416,
+            ["weapon_akm"] = Permission.WPHK416,
+            ["weapon_mcxspear"] = Permission.WPHK416
         };
         #endregion
 
