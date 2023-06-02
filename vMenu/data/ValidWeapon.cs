@@ -464,6 +464,7 @@ namespace vMenuClient
             ["weapon_candycane"] = Permission.WPCandyCane,
             ["weapon_railgunxm3"] = Permission.WPRailgunXM3,
             ["weapon_acidpackage"] = Permission.WPAcidPackage,
+            ["weapon_hk416"] = Permission.WPHK416,
         };
         #endregion
 
