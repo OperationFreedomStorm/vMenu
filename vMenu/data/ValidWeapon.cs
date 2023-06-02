@@ -230,7 +230,7 @@ namespace vMenuClient
             { "weapon_pistolxm3", GetLabelText("WTD_PISTOLXM3") },
             { "weapon_candycane", GetLabelText("WTD_CANDYCANE") },
             { "weapon_railgunxm3", GetLabelText("WTD_RAILGUNXM3") },
-            { "weapon_hk416g", "~p~HK416 5.56mm NATO" },
+            { "weapon_hk416g", "~p~HK416 5.56mm NATO" }
         };
 
         public static readonly Dictionary<string, string> weaponNames = new Dictionary<string, string>()
@@ -346,7 +346,7 @@ namespace vMenuClient
             { "weapon_candycane", GetLabelText("WT_CANDYCANE") },
             { "weapon_railgunxm3", GetLabelText("WT_RAILGUNXM3") },
             { "weapon_acidpackage", GetLabelText("WT_ACIDPACKAGE") },
-            { "weapon_hk416g", "~p~HK416 5.56mm NATO" },
+            { "weapon_hk416g", "~p~HK416 5.56mm NATO" }
         };
         #endregion
 
@@ -464,7 +464,7 @@ namespace vMenuClient
             ["weapon_candycane"] = Permission.WPCandyCane,
             ["weapon_railgunxm3"] = Permission.WPRailgunXM3,
             ["weapon_acidpackage"] = Permission.WPAcidPackage,
-            ["weapon_hk416"] = Permission.WPHK416,
+            ["weapon_hk416g"] = Permission.WPHK416,
         };
         #endregion
 
