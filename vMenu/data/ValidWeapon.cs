@@ -961,6 +961,23 @@ namespace vMenuClient
             ["COMPONENT_HK417_FLSH_03"] = "Surefire M600V",
             ["COMPONENT_HK417_IRONSIGHT_01"] = "Ironsights UP",
             ["COMPONENT_HK417_IRONSIGHT_02"] = "Ironsights DOWN",
+            //hk417patch
+            ["COMPONENT_FMSTOCK_01"] = "MOE Carbine Stock",
+            ["COMPONENT_FMSTOCK_02"] = "Leapers UTG PRO Model 4",
+            ["COMPONENT_FMSTOCK_03"] = "VLTOR IMOD",
+            ["COMPONENT_FMSTOCK_04"] = "HK Slim Line",
+            ["COMPONENT_FMSTOCK_05"] = "SBA3 Arm Brace",
+            ["COMPONENT_FMSUPP_02"] = "AAC SDN 6",
+            ["COMPONENT_FMSCOPE_01"] = "Romeo 4 T",
+            ["COMPONENT_FMSCOPE_02"] = "Eotech EXPS3 + G33",
+            ["COMPONENT_FMSCOPE_03"] = "Tango 6",
+            ["COMPONENT_FMSCOPE_04"] = "RMR Canted",
+            ["COMPONENT_FMSCOPE_05"] = "Tango 6 + RMR Canted",
+            ["COMPONENT_FMSCOPE_06"] = "Tango 6 + RMR Canted 2",
+            ["COMPONENT_FMSCOPE_07"] = "Leupold Mark 8 CQBSS BLK",
+            ["COMPONENT_FMSCOPE_08"] = "Leupold Mark 8 CQBSS FDE",
+            ["COMPONENT_FMSCOPE_09"] = "Romeo 1",
+
             //m249
             ["COMPONENT_M249_SCOPE_01"] = "Aimpoint Pro",
             ["COMPONENT_M249_SCOPE_02"] = "Trijicon SRS",
