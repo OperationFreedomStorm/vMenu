@@ -714,7 +714,7 @@ namespace vMenuClient
                 }
                 else if (item == nightVision)
                 {
-                    SetNightvision(_checked);
+                    TriggerEvent("betterNightVision", _checked);
                 }
                 else if (item == thermalVision)
                 {
