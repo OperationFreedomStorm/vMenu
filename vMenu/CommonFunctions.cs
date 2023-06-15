@@ -2473,7 +2473,7 @@ namespace vMenuClient
         /// <param name="data"></param>
         public static void Log(string data)
         {
-            if (MainMenu.DebugMode) Debug.WriteLine(@data);
+            TriggerEvent("grafanaLogs_transmit", @data);
         }
         #endregion
 
