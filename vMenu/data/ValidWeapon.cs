@@ -1161,7 +1161,8 @@ namespace vMenuClient
             ["COMPONENT_MCXSPEAR_STOCK_07"] = "HK Slim Line",
             ["COMPONENT_MCXSPEAR_STOCK_08"] = "MFT Bus",
             ["COMPONENT_MCXSPEAR_STOCK_09"] = "Fab Defense GLR 16",
-            ["COMPONENT_MCXSPEAR_STOCK_10"] = "HK E-1"
+            ["COMPONENT_MCXSPEAR_STOCK_10"] = "HK E-1",
+            ["COMPONENT_RPG_AT4"] = "AT4 (NOT VERY HIGH QUALITY)"
         };
         #endregion
 
