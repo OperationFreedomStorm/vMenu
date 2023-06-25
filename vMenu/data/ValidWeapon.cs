@@ -236,7 +236,8 @@ namespace vMenuClient
             { "weapon_m249", "~p~M249 5.56×45mm NATO" },
             { "weapon_scar17fm", "~p~SCAR-17 5.56×45mm NATO" },
             { "weapon_akm", "~p~AKM 7.62×39mm" },
-            { "weapon_mcxspear", "~p~SIG MCX Spear 7.62×51mm NATO" }
+            { "weapon_mcxspear", "~p~SIG MCX Spear 7.62×51mm NATO" },
+            { "weapon_m16a4", "~p~M16A4 5.56×45mm NATO" }
         };
 
         public static readonly Dictionary<string, string> weaponNames = new Dictionary<string, string>()
@@ -358,7 +359,8 @@ namespace vMenuClient
             { "weapon_m249", "~p~M249 5.56×45mm NATO" },
             { "weapon_scar17fm", "~p~SCAR-17 5.56×45mm NATO" },
             { "weapon_akm", "~p~AKM 7.62×39mm" },
-            { "weapon_mcxspear", "~p~SIG MCX Spear 7.62×51mm NATO" }
+            { "weapon_mcxspear", "~p~SIG MCX Spear 7.62×51mm NATO" },
+            { "weapon_m16a4", "~p~M16A4 5.56×45mm NATO" }
         };
         #endregion
 
@@ -482,7 +484,8 @@ namespace vMenuClient
             ["weapon_m249"] = Permission.WPHK416,
             ["weapon_scar17fm"] = Permission.WPHK416,
             ["weapon_akm"] = Permission.WPHK416,
-            ["weapon_mcxspear"] = Permission.WPHK416
+            ["weapon_mcxspear"] = Permission.WPHK416,
+            ["weapon_m16a4"] = Permission.WPHK416
         };
         #endregion
 
@@ -1162,6 +1165,7 @@ namespace vMenuClient
             ["COMPONENT_MCXSPEAR_STOCK_08"] = "MFT Bus",
             ["COMPONENT_MCXSPEAR_STOCK_09"] = "Fab Defense GLR 16",
             ["COMPONENT_MCXSPEAR_STOCK_10"] = "HK E-1",
+            ["COMPONENT_AT_SCOPE_M16A4"] = "Trigicon AOG TA31",
             ["COMPONENT_RPG_AT4"] = "AT4 (NOT VERY HIGH QUALITY)"
         };
         #endregion
