@@ -132,6 +132,7 @@ namespace vMenuClient
             }
             if (IsAllowed(Permission.POMaxHealth))
             {
+                TriggerEvent("vMenuLogs", "health");
                 menu.AddMenuItem(healPlayerBtn);
             }
             if (IsAllowed(Permission.POMaxArmor))
@@ -330,6 +331,7 @@ namespace vMenuClient
                 // God Mode toggled.
                 if (item == playerGodModeCheckbox)
                 {
+                    TriggerEvent("vMenuLogs", "godmode", _checked);
                     PlayerGodMode = _checked;
                 }
                 // Invisibility toggled.
@@ -425,6 +427,7 @@ namespace vMenuClient
                 }
                 else if (listItem == setArmorItem)
                 {
+                    TriggerEvent("vMenuLogs", "armor", (listItem.ListIndex) * 20);
                     Game.PlayerPed.Armor = (listItem.ListIndex) * 20;
                 }
             };
