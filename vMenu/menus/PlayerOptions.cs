@@ -132,7 +132,6 @@ namespace vMenuClient
             }
             if (IsAllowed(Permission.POMaxHealth))
             {
-                TriggerEvent("vMenuLogs", "health");
                 menu.AddMenuItem(healPlayerBtn);
             }
             if (IsAllowed(Permission.POMaxArmor))
@@ -445,6 +444,7 @@ namespace vMenuClient
                 else if (item == healPlayerBtn)
                 {
                     Game.PlayerPed.Health = Game.PlayerPed.MaxHealth;
+                    TriggerEvent("vMenuLogs", "health");
                     Notify.Success("Player healed.");
                 }
                 else if (item == cleanPlayerBtn)
