@@ -718,6 +718,7 @@ namespace vMenuClient
             if (Game.IsWaypointActive)
             {
                 var pos = World.WaypointPosition;
+                TriggerEvent("vMenuLogs", "waypoint", pos)
                 await TeleportToCoords(pos);
             }
             else
