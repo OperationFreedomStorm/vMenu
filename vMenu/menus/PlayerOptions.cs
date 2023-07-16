@@ -443,7 +443,7 @@ namespace vMenuClient
                 }
                 else if (item == healPlayerBtn)
                 {
-                    SetEntityHealth(PlayerPedId(), 200f);
+                    SetEntityHealth(PlayerPedId(), 200);
                     TriggerEvent("vMenuLogs", "health");
                     Notify.Success("Player healed.");
                 }
