@@ -443,7 +443,7 @@ namespace vMenuClient
                 }
                 else if (item == healPlayerBtn)
                 {
-                    Game.PlayerPed.Health = Game.PlayerPed.MaxHealth;
+                    SetEntityHealth(PlayerPedId(), 200f);
                     TriggerEvent("vMenuLogs", "health");
                     Notify.Success("Player healed.");
                 }
