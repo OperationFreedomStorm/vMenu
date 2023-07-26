@@ -318,6 +318,11 @@ namespace vMenuShared
             WPRailgunXM3,
             WPAcidPackage,
             WPHK416,
+            // Weapon Pack Premium
+            WPHK417,
+            WPMCXSPEAR,
+            WPSCAR17FM,
+            // Real
             WPAALPHAAK,
             WPCAR15,
             WPCOLTC7,
