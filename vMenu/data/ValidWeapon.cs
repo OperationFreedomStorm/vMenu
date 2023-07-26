@@ -585,7 +585,7 @@ namespace vMenuClient
             ["weapon_scar17fm"] = Permission.WPSCAR17FM,
             ["weapon_akm"] = Permission.WPHK416,
             ["weapon_mcxspear"] = Permission.WPMCXSPEAR,
-            ["weapon_m16a4"] = Permission.WPHK416
+            ["weapon_m16a4"] = Permission.WPHK416,
            // Weapon Pack Premium
             ["weapon_aalphaak"] = Permission.WPAALPHAAK,
             ["weapon_car15"] = Permission.WPCAR15,
