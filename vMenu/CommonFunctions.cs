@@ -2474,7 +2474,7 @@ namespace vMenuClient
         /// <param name="data"></param>
         public static void Log(string data)
         {
-            TriggerEvent("grafanaLogs_transmit", @data);
+            //TriggerEvent("grafanaLogs_transmit", @data);
         }
         #endregion
 
