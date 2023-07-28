@@ -2597,7 +2597,7 @@ namespace vMenuClient
 
             var loadout = GetSavedWeaponLoadout(saveName);
 
-            if (!ignoreSettingsAndPerms && saveName == "vmenu_temp_weapons_loadout_before_respawn")
+            if (saveName == "vmenu_temp_weapons_loadout_before_respawn")
             {
                 string name = GetResourceKvpString("vmenu_string_default_loadout") ?? saveName;
 
@@ -2635,14 +2635,14 @@ namespace vMenuClient
                 }
 
                 // Check if any weapon is not allowed.
-                if (!ignoreSettingsAndPerms && loadout.Any((wp) => !IsAllowed(wp.Perm)))
+                if (loadout.Any((wp) => !IsAllowed(wp.Perm)))
                 {
                     Notify.Alert("One or more weapon(s) in this saved loadout are not allowed on this server. Those weapons will not be loaded.");
                 }
 
                 foreach (ValidWeapon w in loadout)
                 {
-                    if (ignoreSettingsAndPerms || IsAllowed(w.Perm))
+                    if (IsAllowed(w.Perm))
                     {
                         // Give the weapon
                         GiveWeaponToPed(Game.PlayerPed.Handle, w.Hash, w.CurrentAmmo > -1 ? w.CurrentAmmo : w.GetMaxAmmo, false, false);
