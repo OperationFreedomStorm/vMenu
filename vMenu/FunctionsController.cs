@@ -445,9 +445,11 @@ namespace vMenuClient
                             if (MainMenu.VehicleOptionsMenu.DisablePlaneTurbulence && IsAllowed(Permission.VODisableTurbulence))
                             {
                                 SetPlaneTurbulenceMultiplier(veh.Handle, 0f);
+                                SetHeliTurbulenceScalar(veh.Handle, 0f);
                             }
                             else
                             {
+                                SetHeliTurbulenceScalar(veh.Handle, 1.0f);
                                 SetPlaneTurbulenceMultiplier(veh.Handle, 1.0f);
                             }
                         }
