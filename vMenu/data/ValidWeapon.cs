@@ -301,7 +301,6 @@ namespace vMenuClient.data
             { "weapon_m200i", "~HUD_COLOUR_GOLD~M200 Intervention .408 Cheyenne Tactical" },
             { "weapon_mdr", "~HUD_COLOUR_GOLD~Desert Tech MDR 5.56x45mm NATO" },
             { "weapon_mk14ebr", "~HUD_COLOUR_GOLD~MK14 EBR 7.62x51mm NATO" },
-            { "weapon_mk18", "~HUD_COLOUR_GOLD~Colt MK18 CQBR 5.56x45mm NATO" },
             { "weapon_mp5k", "~HUD_COLOUR_GOLD~Heckler & Koch MP5 9x19mm Parabellum" },
             { "weapon_mp9l", "~HUD_COLOUR_GOLD~Smith & Wesson M&P 9L 9x19mm" },
             { "weapon_nemoarmsomen", "~HUD_COLOUR_GOLD~Nemo Arms Omen Watchman .300 Winchester" },
@@ -318,6 +317,13 @@ namespace vMenuClient.data
             { "weapon_snowlauncher", GetLabelText("WTD_SNOWLNCHR") },
             // MP2024_01 DLC (V 3258)
             { "weapon_stunrod", GetLabelText("WTD_STUNROD") },
+            { "weapon_mk18", "~HUD_COLOUR_GOLD~Colt MK18 CQBR 5.56x45mm NATO" },
+            { "weapon_tacticalsniper", "~HUD_COLOUR_GOLD~Remington MSR .338 Lapua Magnum" },
+            { "weapon_tacticalsniper_fde", "~HUD_COLOUR_GOLD~Remington MSR [FDE] .338 Lapua Magnum" },
+            { "weapon_tacticalsniper_tanodized", "~HUD_COLOUR_GOLD~Remington MSR [TANODIZED] .338 Lapua Magnum" },
+
+            { "weapon_c6a1", "~HUD_COLOUR_GOLD~C6A1 Medium Machine Gun" },
+            { "weapon_c9a2", "~HUD_COLOUR_GOLD~C9A2 Light Machine Gun" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -481,11 +487,10 @@ namespace vMenuClient.data
             { "weapon_m200i", "~HUD_COLOUR_GOLD~M200 Intervention .408 Cheyenne Tactical" },
             { "weapon_mdr", "~HUD_COLOUR_GOLD~Desert Tech MDR 5.56x45mm NATO" },
             { "weapon_mk14ebr", "~HUD_COLOUR_GOLD~MK14 EBR 7.62x51mm NATO" },
-            { "weapon_mk18", "~HUD_COLOUR_GOLD~Colt MK18 CQBR 5.56x45mm NATO" },
             { "weapon_mp5k", "~HUD_COLOUR_GOLD~Heckler & Koch MP5 9x19mm Parabellum" },
             { "weapon_mp9l", "~HUD_COLOUR_GOLD~Smith & Wesson M&P 9L 9x19mm" },
             { "weapon_nemoarmsomen", "~HUD_COLOUR_GOLD~Nemo Arms Omen Watchman .300 Winchester" },
-            { "weapon_pkm", "~HUD_COLOUR_GOLD~PK Machine Gun 7.62x54mmR" },
+            { "weapon_pkm", "~HUD_COLOUR_GOLD~PK Machine Gun 7.62x54mm" },
             { "weapon_pm12s", "~HUD_COLOUR_GOLD~Baretta M12 9x19mm Parabellum" },
             { "weapon_sigmcx", "~HUD_COLOUR_GOLD~Sig MCX 5.56x45mm" },
             { "weapon_swm659", "~HUD_COLOUR_GOLD~Smith & Wesson M65 9x19mm" },
@@ -499,6 +504,13 @@ namespace vMenuClient.data
             { "weapon_hackingdevice", GetLabelText("WT_HACKDEVICE") },
             // MP2024_01 DLC (V 3258)
             { "weapon_stunrod", GetLabelText("WT_STUNROD") },
+            { "weapon_mk18", "~HUD_COLOUR_GOLD~Colt MK18 CQBR 5.56x45mm NATO" },
+            { "weapon_tacticalsniper", "~HUD_COLOUR_GOLD~Remington MSR .338 Lapua Magnum" },
+            { "weapon_tacticalsniper_fde", "~HUD_COLOUR_GOLD~Remington MSR [FDE] .338 Lapua Magnum" },
+            { "weapon_tacticalsniper_tanodized", "~HUD_COLOUR_GOLD~Remington MSR [TANODIZED] .338 Lapua Magnum" },
+
+            { "weapon_c6a1", "~HUD_COLOUR_GOLD~C6A1 Medium Machine Gun" },
+            { "weapon_c9a2", "~HUD_COLOUR_GOLD~C9A2 Light Machine Gun" },
         };
         #endregion
 
@@ -646,7 +658,6 @@ namespace vMenuClient.data
             ["weapon_m200i"] = Permission.WPM200I,
             ["weapon_mdr"] = Permission.WPMDR,
             ["weapon_mk14ebr"] = Permission.WPMK14EBR,
-            ["weapon_mk18"] = Permission.WPMK18,
             ["weapon_mp5k"] = Permission.WPMP5K,
             ["weapon_mp9l"] = Permission.WPMP9L,
             ["weapon_nemoarmsomen"] = Permission.WPNEMOARMSOMEN,
@@ -682,6 +693,12 @@ namespace vMenuClient.data
             ["weapon_hackingdevice"] = Permission.WPHackingDevice,
             // MP2024_01 DLC (V 3258)
             ["weapon_stunrod"] = Permission.WPStunRod,
+            ["weapon_mk18"] = Permission.WPMK18,
+            ["weapon_tacticalsniper"] = Permission.WPTACTICALSNIPER,
+            ["weapon_tacticalsniper_fde"] = Permission.WPTACTICALSNIPER,
+            ["weapon_tacticalsniper_tanodized"] = Permission.WPTACTICALSNIPER,
+            ["weapon_c6a1"] = Permission.WPC6A1,
+            ["weapon_c9a2"] = Permission.WPC9A2,
         };
         #endregion
 
@@ -1507,6 +1524,36 @@ namespace vMenuClient.data
             ["COMPONENT_HEAVYSNIPER_VARMOD_XMAS23"] = GetLabelText("WCT_HVSP_XM"),
             // MP2024_01 DLC (V 3258)
             ["COMPONENT_STUNGUN_VARMOD_BAIL"] = GetLabelText("WCT_STNGN_BAIL"),
+
+            ["COMPONENT_MARKOMODS_MK18_MUZZLE_01"] = "Muzzle 1",
+            ["COMPONENT_MARKOMODS_MK18_IRONSIGHT_01"] = "Ironsight 1",
+            ["COMPONENT_MARKOMODS_MK18_IRONSIGHT_02"] = "Ironsight 2",
+            ["COMPONENT_MARKOMODS_MK18_LASER_01"] = "Laser 1",
+            ["COMPONENT_MARKOMODS_MK18_LASER_02"] = "Laser 2",
+            ["COMPONENT_MARKOMODS_MK18_LASER_03"] = "Laser 3",
+            ["COMPONENT_MARKOMODS_MK18_LASER_04"] = "Laser 4",
+            ["COMPONENT_MARKOMODS_MK18_FLASH_01_FDE"] = "Flash 1 FDE",
+            ["COMPONENT_MARKOMODS_MK18_FLASH_02_FDE"] = "Flash 2 FDE",
+            ["COMPONENT_MARKOMODS_MK18_FLASH_01"] = "Flash 1",
+            ["COMPONENT_MARKOMODS_MK18_FLASH_02"] = "Flash 2",
+            ["COMPONENT_MARKOMODS_MK18_MAG_01"] = "Magazine 1",
+            ["COMPONENT_MARKOMODS_MK18_MAG_02"] = "Magazine 2",
+
+
+
+            ["COMPONENT_MARKOMODS_TACTICALSNIPER_MAG_01"] = "Magazine 1",
+            ["COMPONENT_MARKOMODS_TACTICALSNIPER_MAG_02"] = "Magazine 2",
+            ["COMPONENT_MARKOMODS_TACTICALSNIPER_MAG_03"] = "Magazine 3",
+            ["COMPONENT_MARKOMODS_TACTICALSNIPER_MAG_04"] = "Magazine 4",
+            ["COMPONENT_MARKOMODS_TACTICALSNIPER_MUZZLE_01"] = "Muzzle 1",
+            ["COMPONENT_MARKOMODS_TACTICALSNIPER_SUPPRESSOR_01"] = "Supressor 1",
+            ["COMPONENT_MARKOMODS_TACTICALSNIPER_BIPOD"] = "Bipod",
+
+            ["COMPONENT_AT_SCOPE_C6A1"] = "Scope",
+            ["COMPONENT_C6A1_CLIP_01"] = "Magazine",
+
+            ["COMPONENT_AT_SCOPE_C9A2"] = "Scope",
+            ["COMPONENT_C9A2_CLIP_01"] = "Magazine",
         };
         #endregion
 

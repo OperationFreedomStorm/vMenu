@@ -348,6 +348,7 @@ namespace vMenuShared
             WPMDR,
             WPMK14EBR,
             WPMK18,
+            WPTACTICALSNIPER,
             WPMP5K,
             WPMP9L,
             WPNEMOARMSOMEN,
@@ -365,6 +366,10 @@ namespace vMenuShared
             WPHackingDevice,
             // MP2024_01 DLC (V 3258)
             WPStunRod,
+
+            WPC6A1,
+            
+            WPC9A2,
             #endregion
 
             // Weapon Loadouts Menu
